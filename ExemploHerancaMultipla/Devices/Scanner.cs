@@ -1,7 +1,7 @@
 ﻿using System;
 namespace ExemploHerancaMultipla.Devices
 {
-    class Scanner : Device
+    class Scanner : Device, IScanner
     {
         public override void ProcessDoc(string document)
         {
